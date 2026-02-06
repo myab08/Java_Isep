@@ -11,6 +11,7 @@ public class ex7_7 {
         for (int i = 1; i <= 10; i++) {     
             for (int j = 1; j <= 10; j++) {
                 // Calcul et affichage avec tabulation
+                // \t pour aligner les résultats en colonnes (comme sur table Exel)--> comme la touche Tab sur le clavier 
                 System.out.print((i * j) + "\t");
             }
             // Après avoir fini une ligne de 10 colonnes, on saute une ligne

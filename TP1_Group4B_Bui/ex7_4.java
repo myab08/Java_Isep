@@ -13,12 +13,12 @@ public class ex7_4 {
         System.out.println("Saisir un entier positif ou nul :");
         int n = scanner.nextInt();
         
-        // On initialise à 1 car c'est l'élément neutre de la multiplication
+        // long == int mais code sur 64 bit et peut stocker des nombres plus grands
         long resultatFactorielle = 1;
 
-        // Boucle itérative de 1 jusqu'à n
+        // de 1 jusqu'à n
         for (int i = 1; i <= n; i++) {
-            resultatFactorielle *= i; // Équivalent à : resultatFactorielle = resultatFactorielle * i
+            resultatFactorielle *= i; 
         }
 
         System.out.println(n + "! = " + resultatFactorielle);
